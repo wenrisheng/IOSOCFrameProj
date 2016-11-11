@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     s.subspec 'WSService' do |ss|
         ss.source_files = 'WSService/WSService/**/*.{h,m}'
         ss.public_header_files = 'WSService/WSService/WSBaseService.h'
-ss.dependency "AFNetworking", '~> 3.1.0'
-ss.dependency "ASIHTTPRequest", '~> 1.8.2'
+        ss.dependency "AFNetworking", '~> 3.1.0'
+        ss.dependency "ASIHTTPRequest", '~> 1.8.2'
     end
 end
