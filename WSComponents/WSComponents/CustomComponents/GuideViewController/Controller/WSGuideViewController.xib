@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WSGuideViewController">
+            <connections>
+                <outlet property="containerView" destination="uiI-Nv-ZRC" id="Ypc-7Z-7fs"/>
+                <outlet property="contentScrollView" destination="QQV-Lb-JeY" id="Qeo-Zw-CO7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQV-Lb-JeY">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uiI-Nv-ZRC">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="uiI-Nv-ZRC" firstAttribute="width" secondItem="QQV-Lb-JeY" secondAttribute="width" priority="250" id="3ld-KD-tNY"/>
+                        <constraint firstItem="uiI-Nv-ZRC" firstAttribute="leading" secondItem="QQV-Lb-JeY" secondAttribute="leading" id="leE-7F-nms"/>
+                        <constraint firstItem="uiI-Nv-ZRC" firstAttribute="top" secondItem="QQV-Lb-JeY" secondAttribute="top" id="p1Y-9I-gwJ"/>
+                        <constraint firstAttribute="bottom" secondItem="uiI-Nv-ZRC" secondAttribute="bottom" id="tuU-Fw-FfC"/>
+                        <constraint firstAttribute="trailing" secondItem="uiI-Nv-ZRC" secondAttribute="trailing" id="uh8-FK-hxn"/>
+                        <constraint firstItem="uiI-Nv-ZRC" firstAttribute="height" secondItem="QQV-Lb-JeY" secondAttribute="height" id="xBH-hJ-rrX"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="cuC-0R-eW4"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="QQV-Lb-JeY" secondAttribute="bottom" id="IiF-1D-4mT"/>
+                <constraint firstItem="QQV-Lb-JeY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="SHt-Ha-BNP"/>
+                <constraint firstItem="QQV-Lb-JeY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dMC-yi-pNr"/>
+                <constraint firstAttribute="trailing" secondItem="QQV-Lb-JeY" secondAttribute="trailing" id="mYb-wd-9dB"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-33" y="-47"/>
+        </view>
+    </objects>
+</document>

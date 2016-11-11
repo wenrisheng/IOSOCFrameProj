@@ -1,0 +1,41 @@
+
+workspace 'IOSOCFrameProj'
+
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+project 'IOSOCFrameProj'
+project '../WSService/WSService'
+project '../WSComponents/WSComponents'
+project '../WSBase/WSBase'
+
+# 项目
+target :IOSOCFrameProj do
+    pod 'IQKeyboardManager'
+    pod 'SDWebImage'
+    pod 'ASIHTTPRequest'
+    pod 'AFNetworking'
+    project 'IOSOCFrameProj'
+end
+
+# service
+target :WSBase do
+project '../WSBase/WSBase'
+end
+
+# service
+target :WSService do
+    pod 'AFNetworking'
+     pod 'ASIHTTPRequest'
+    project '../WSService/WSService'
+end
+
+# WSComponents
+target :WSComponents do
+    pod 'SDWebImage'
+    project '../WSComponents/WSComponents'
+end
+
+
+
+

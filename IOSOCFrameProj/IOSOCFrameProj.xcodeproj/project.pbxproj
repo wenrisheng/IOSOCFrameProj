@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2F0482B1DD58EB200A5F06A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F0482A1DD58EB200A5F06A /* main.m */; };
+		A2F0482E1DD58EB200A5F06A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F0482D1DD58EB200A5F06A /* AppDelegate.m */; };
+		A2F048311DD58EB200A5F06A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F048301DD58EB200A5F06A /* ViewController.m */; };
+		A2F048341DD58EB200A5F06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F048321DD58EB200A5F06A /* Main.storyboard */; };
+		A2F048361DD58EB200A5F06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F048351DD58EB200A5F06A /* Assets.xcassets */; };
+		A2F048391DD58EB200A5F06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F048371DD58EB200A5F06A /* LaunchScreen.storyboard */; };
+		A2F048441DD58EB200A5F06A /* IOSOCFrameProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F048431DD58EB200A5F06A /* IOSOCFrameProjTests.m */; };
+		A2F0484F1DD58EB200A5F06A /* IOSOCFrameProjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F0484E1DD58EB200A5F06A /* IOSOCFrameProjUITests.m */; };
+		AF6A1DC6FA9BD7797E67D4C2 /* libPods-IOSOCFrameProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EB1ADE8F45369DFF009E8B /* libPods-IOSOCFrameProj.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2F048401DD58EB200A5F06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2F0481E1DD58EB200A5F06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F048251DD58EB200A5F06A;
+			remoteInfo = IOSOCFrameProj;
+		};
+		A2F0484B1DD58EB200A5F06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2F0481E1DD58EB200A5F06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F048251DD58EB200A5F06A;
+			remoteInfo = IOSOCFrameProj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BF2A0492038AF42B516B1BD /* Pods-IOSOCFrameProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSOCFrameProj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSOCFrameProj/Pods-IOSOCFrameProj.debug.xcconfig"; sourceTree = "<group>"; };
+		2DC73B7264F6A34058CC1A58 /* Pods-IOSOCFrameProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSOCFrameProj.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSOCFrameProj/Pods-IOSOCFrameProj.release.xcconfig"; sourceTree = "<group>"; };
+		A2F048261DD58EB200A5F06A /* IOSOCFrameProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSOCFrameProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F0482A1DD58EB200A5F06A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2F0482C1DD58EB200A5F06A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2F0482D1DD58EB200A5F06A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2F0482F1DD58EB200A5F06A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2F048301DD58EB200A5F06A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2F048331DD58EB200A5F06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2F048351DD58EB200A5F06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2F048381DD58EB200A5F06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2F0483A1DD58EB200A5F06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F0483F1DD58EB200A5F06A /* IOSOCFrameProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSOCFrameProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F048431DD58EB200A5F06A /* IOSOCFrameProjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSOCFrameProjTests.m; sourceTree = "<group>"; };
+		A2F048451DD58EB200A5F06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F0484A1DD58EB200A5F06A /* IOSOCFrameProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSOCFrameProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F0484E1DD58EB200A5F06A /* IOSOCFrameProjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSOCFrameProjUITests.m; sourceTree = "<group>"; };
+		A2F048501DD58EB200A5F06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EB1ADE8F45369DFF009E8B /* libPods-IOSOCFrameProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSOCFrameProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2F048231DD58EB200A5F06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6A1DC6FA9BD7797E67D4C2 /* libPods-IOSOCFrameProj.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F0483C1DD58EB200A5F06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F048471DD58EB200A5F06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		852FCBF2ADAF7736845CA286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5EB1ADE8F45369DFF009E8B /* libPods-IOSOCFrameProj.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2F0481D1DD58EB200A5F06A = {
+			isa = PBXGroup;
+			children = (
+				A2F048281DD58EB200A5F06A /* IOSOCFrameProj */,
+				A2F048421DD58EB200A5F06A /* IOSOCFrameProjTests */,
+				A2F0484D1DD58EB200A5F06A /* IOSOCFrameProjUITests */,
+				A2F048271DD58EB200A5F06A /* Products */,
+				DC95B1612D0220E18B717E62 /* Pods */,
+				852FCBF2ADAF7736845CA286 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F048271DD58EB200A5F06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F048261DD58EB200A5F06A /* IOSOCFrameProj.app */,
+				A2F0483F1DD58EB200A5F06A /* IOSOCFrameProjTests.xctest */,
+				A2F0484A1DD58EB200A5F06A /* IOSOCFrameProjUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2F048281DD58EB200A5F06A /* IOSOCFrameProj */ = {
+			isa = PBXGroup;
+			children = (
+				A2F0482C1DD58EB200A5F06A /* AppDelegate.h */,
+				A2F0482D1DD58EB200A5F06A /* AppDelegate.m */,
+				A2F0482F1DD58EB200A5F06A /* ViewController.h */,
+				A2F048301DD58EB200A5F06A /* ViewController.m */,
+				A2F048321DD58EB200A5F06A /* Main.storyboard */,
+				A2F048351DD58EB200A5F06A /* Assets.xcassets */,
+				A2F048371DD58EB200A5F06A /* LaunchScreen.storyboard */,
+				A2F0483A1DD58EB200A5F06A /* Info.plist */,
+				A2F048291DD58EB200A5F06A /* Supporting Files */,
+			);
+			path = IOSOCFrameProj;
+			sourceTree = "<group>";
+		};
+		A2F048291DD58EB200A5F06A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2F0482A1DD58EB200A5F06A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2F048421DD58EB200A5F06A /* IOSOCFrameProjTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2F048431DD58EB200A5F06A /* IOSOCFrameProjTests.m */,
+				A2F048451DD58EB200A5F06A /* Info.plist */,
+			);
+			path = IOSOCFrameProjTests;
+			sourceTree = "<group>";
+		};
+		A2F0484D1DD58EB200A5F06A /* IOSOCFrameProjUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2F0484E1DD58EB200A5F06A /* IOSOCFrameProjUITests.m */,
+				A2F048501DD58EB200A5F06A /* Info.plist */,
+			);
+			path = IOSOCFrameProjUITests;
+			sourceTree = "<group>";
+		};
+		DC95B1612D0220E18B717E62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BF2A0492038AF42B516B1BD /* Pods-IOSOCFrameProj.debug.xcconfig */,
+				2DC73B7264F6A34058CC1A58 /* Pods-IOSOCFrameProj.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2F048251DD58EB200A5F06A /* IOSOCFrameProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F048531DD58EB200A5F06A /* Build configuration list for PBXNativeTarget "IOSOCFrameProj" */;
+			buildPhases = (
+				33F2BEE48AF27C17A56E1E78 /* [CP] Check Pods Manifest.lock */,
+				A2F048221DD58EB200A5F06A /* Sources */,
+				A2F048231DD58EB200A5F06A /* Frameworks */,
+				A2F048241DD58EB200A5F06A /* Resources */,
+				0ACDD730356A66E41FE45D0B /* [CP] Embed Pods Frameworks */,
+				EE9F27421E46B2473C4AD5D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSOCFrameProj;
+			productName = IOSOCFrameProj;
+			productReference = A2F048261DD58EB200A5F06A /* IOSOCFrameProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2F0483E1DD58EB200A5F06A /* IOSOCFrameProjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F048561DD58EB200A5F06A /* Build configuration list for PBXNativeTarget "IOSOCFrameProjTests" */;
+			buildPhases = (
+				A2F0483B1DD58EB200A5F06A /* Sources */,
+				A2F0483C1DD58EB200A5F06A /* Frameworks */,
+				A2F0483D1DD58EB200A5F06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F048411DD58EB200A5F06A /* PBXTargetDependency */,
+			);
+			name = IOSOCFrameProjTests;
+			productName = IOSOCFrameProjTests;
+			productReference = A2F0483F1DD58EB200A5F06A /* IOSOCFrameProjTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2F048491DD58EB200A5F06A /* IOSOCFrameProjUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F048591DD58EB200A5F06A /* Build configuration list for PBXNativeTarget "IOSOCFrameProjUITests" */;
+			buildPhases = (
+				A2F048461DD58EB200A5F06A /* Sources */,
+				A2F048471DD58EB200A5F06A /* Frameworks */,
+				A2F048481DD58EB200A5F06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F0484C1DD58EB200A5F06A /* PBXTargetDependency */,
+			);
+			name = IOSOCFrameProjUITests;
+			productName = IOSOCFrameProjUITests;
+			productReference = A2F0484A1DD58EB200A5F06A /* IOSOCFrameProjUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2F0481E1DD58EB200A5F06A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wenrisheng;
+				TargetAttributes = {
+					A2F048251DD58EB200A5F06A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 59YX2RBMQJ;
+						ProvisioningStyle = Automatic;
+					};
+					A2F0483E1DD58EB200A5F06A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 59YX2RBMQJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2F048251DD58EB200A5F06A;
+					};
+					A2F048491DD58EB200A5F06A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 59YX2RBMQJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2F048251DD58EB200A5F06A;
+					};
+				};
+			};
+			buildConfigurationList = A2F048211DD58EB200A5F06A /* Build configuration list for PBXProject "IOSOCFrameProj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2F0481D1DD58EB200A5F06A;
+			productRefGroup = A2F048271DD58EB200A5F06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F048251DD58EB200A5F06A /* IOSOCFrameProj */,
+				A2F0483E1DD58EB200A5F06A /* IOSOCFrameProjTests */,
+				A2F048491DD58EB200A5F06A /* IOSOCFrameProjUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2F048241DD58EB200A5F06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F048391DD58EB200A5F06A /* LaunchScreen.storyboard in Resources */,
+				A2F048361DD58EB200A5F06A /* Assets.xcassets in Resources */,
+				A2F048341DD58EB200A5F06A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F0483D1DD58EB200A5F06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F048481DD58EB200A5F06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ACDD730356A66E41FE45D0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSOCFrameProj/Pods-IOSOCFrameProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F2BEE48AF27C17A56E1E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE9F27421E46B2473C4AD5D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSOCFrameProj/Pods-IOSOCFrameProj-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F048221DD58EB200A5F06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F048311DD58EB200A5F06A /* ViewController.m in Sources */,
+				A2F0482E1DD58EB200A5F06A /* AppDelegate.m in Sources */,
+				A2F0482B1DD58EB200A5F06A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F0483B1DD58EB200A5F06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F048441DD58EB200A5F06A /* IOSOCFrameProjTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F048461DD58EB200A5F06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F0484F1DD58EB200A5F06A /* IOSOCFrameProjUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2F048411DD58EB200A5F06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2F048251DD58EB200A5F06A /* IOSOCFrameProj */;
+			targetProxy = A2F048401DD58EB200A5F06A /* PBXContainerItemProxy */;
+		};
+		A2F0484C1DD58EB200A5F06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2F048251DD58EB200A5F06A /* IOSOCFrameProj */;
+			targetProxy = A2F0484B1DD58EB200A5F06A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2F048321DD58EB200A5F06A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F048331DD58EB200A5F06A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2F048371DD58EB200A5F06A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F048381DD58EB200A5F06A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2F048511DD58EB200A5F06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2F048521DD58EB200A5F06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2F048541DD58EB200A5F06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF2A0492038AF42B516B1BD /* Pods-IOSOCFrameProj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59YX2RBMQJ;
+				INFOPLIST_FILE = IOSOCFrameProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrs.IOSOCFrameProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2F048551DD58EB200A5F06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC73B7264F6A34058CC1A58 /* Pods-IOSOCFrameProj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59YX2RBMQJ;
+				INFOPLIST_FILE = IOSOCFrameProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrs.IOSOCFrameProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2F048571DD58EB200A5F06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 59YX2RBMQJ;
+				INFOPLIST_FILE = IOSOCFrameProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrs.IOSOCFrameProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSOCFrameProj.app/IOSOCFrameProj";
+			};
+			name = Debug;
+		};
+		A2F048581DD58EB200A5F06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 59YX2RBMQJ;
+				INFOPLIST_FILE = IOSOCFrameProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrs.IOSOCFrameProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSOCFrameProj.app/IOSOCFrameProj";
+			};
+			name = Release;
+		};
+		A2F0485A1DD58EB200A5F06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 59YX2RBMQJ;
+				INFOPLIST_FILE = IOSOCFrameProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrs.IOSOCFrameProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IOSOCFrameProj;
+			};
+			name = Debug;
+		};
+		A2F0485B1DD58EB200A5F06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 59YX2RBMQJ;
+				INFOPLIST_FILE = IOSOCFrameProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrs.IOSOCFrameProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IOSOCFrameProj;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2F048211DD58EB200A5F06A /* Build configuration list for PBXProject "IOSOCFrameProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F048511DD58EB200A5F06A /* Debug */,
+				A2F048521DD58EB200A5F06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F048531DD58EB200A5F06A /* Build configuration list for PBXNativeTarget "IOSOCFrameProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F048541DD58EB200A5F06A /* Debug */,
+				A2F048551DD58EB200A5F06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2F048561DD58EB200A5F06A /* Build configuration list for PBXNativeTarget "IOSOCFrameProjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F048571DD58EB200A5F06A /* Debug */,
+				A2F048581DD58EB200A5F06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2F048591DD58EB200A5F06A /* Build configuration list for PBXNativeTarget "IOSOCFrameProjUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F0485A1DD58EB200A5F06A /* Debug */,
+				A2F0485B1DD58EB200A5F06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2F0481E1DD58EB200A5F06A /* Project object */;
+}
