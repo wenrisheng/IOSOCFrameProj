@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
   s.name         = "IOSOCFrameProj"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of IOSOCFrameProj."
+  s.version      = "0.0.2"
+  s.summary      = "A IOSOCFrameProj IOSOCFrameProj."
   s.homepage     = "https://coding.net/u/wrs/p/IOSOCFrameProj/git"
-
+  s.license  = 'MIT'
   s.author             = { "wrs" => "252797991@qq.com" }
   # Or just: s.author    = "wrs"
   # s.authors            = { "wrs" => "252797991@qq.com" }
