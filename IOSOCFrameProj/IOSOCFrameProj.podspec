@@ -4,7 +4,6 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A short description of IOSOCFrameProj."
   s.homepage     = "https://coding.net/u/wrs/p/IOSOCFrameProj/git"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.author             = { "wrs" => "252797991@qq.com" }
   # Or just: s.author    = "wrs"
@@ -20,7 +19,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "../WSBase/WSBase", "../WSComponents/WSComponents", "../WSService/WSService"
 
-  # s.resource  = "icon.png"
   s.resources = "../WSComponents/WSComponentsBundle.bundle"
 
   s.requires_arc = true
