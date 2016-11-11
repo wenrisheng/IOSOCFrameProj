@@ -6,24 +6,11 @@ Pod::Spec.new do |s|
   s.homepage     = "https://coding.net/u/wrs/p/IOSOCFrameProj/git"
   s.license  = 'MIT'
   s.author             = { "wrs" => "252797991@qq.com" }
-  # Or just: s.author    = "wrs"
-  # s.authors            = { "wrs" => "252797991@qq.com" }
-  # s.social_media_url   = "http://twitter.com/wrs"
-  # s.platform     = :ios
   s.platform     = :ios, "7.0"
-
   s.source       = { :git => "https://github.com/wenrisheng/IOSOCFrameProj.git", :tag => "#{s.version}" }
-
-  #s.source_files  = "../WSBase/WSBase", "../WSComponents/WSComponents", "../WSService/WSService"
-  #s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "../WSBase/WSBase", "../WSComponents/WSComponents", "../WSService/WSService"
-
-  s.resources = "../WSComponents/WSComponentsBundle.bundle"
 
   s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "AFNetworking"
   s.dependency "ASIHTTPRequest"
 
@@ -36,7 +23,7 @@ Pod::Spec.new do |s|
         ss.public_header_files = '../WSComponents/WSComponents/WSComponents.h'
         ss.resources = "../WSComponents/WSComponentsBundle.bundle"
     end
-    s.subspec 'WSBase' do |ss|
+    s.subspec 'WSService' do |ss|
         ss.source_files = '../WSService/WSService/**/*.{h,m}'
         ss.public_header_files = '../WSService/WSService/WSBaseService.h'
     end
